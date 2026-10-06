@@ -2,7 +2,7 @@
   <img src="./logo.png" width="120" alt="Zelvi" />
 </p>
 
-<h1 align="center">Zelvi 🎵</h1>
+<h1 align="center">Zelvi</h1>
 
 <p align="center">
   <strong>One music app. YouTube + your own MP3s + podcasts — with a recommendation engine that learns your taste.</strong><br/>
