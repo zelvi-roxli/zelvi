@@ -9,17 +9,25 @@
   By ROXLI · Zelvi Studio
 </p>
 
+<div align="center">
+  <a href="https://zelvi-sarvam.roxli.in/download">
+    <img src="./download-button.svg" alt="Download Zelvi — Android · Windows · macOS" width="320" />
+  </a><br/>
+  <sub>Opens the official download page — always serves the latest release.</sub>
+</div>
+
 ---
 
 ## 📥 Download
 
-| Platform | File |
+| Platform | Direct file (v1.2.0) |
 |---|---|
-| 🤖 **Android** | `zelvi-android-v1.1.0.apk` — attach & install (allow "install unknown apps" once) |
-| 🪟 **Windows** | `zelvi-windows-v1.1.0-setup.exe` — run the installer |
-| 🍎 **macOS** | `zelvi-macos-v1.1.0.dmg` — drag to Applications |
+| 🤖 **Android** | [zelvi-android-v1.2.0.apk](https://github.com/zelvi-roxli/zelvi/releases/download/v1.2.0/zelvi-android-v1.2.0.apk) — install (allow "install unknown apps" once) |
+| 🪟 **Windows** | [zelvi-windows-v1.2.0-setup.exe](https://github.com/zelvi-roxli/zelvi/releases/download/v1.2.0/zelvi-windows-v1.2.0-setup.exe) — run the installer |
+| 🍎 **macOS** | [zelvi-macos-v1.2.0.dmg](https://github.com/zelvi-roxli/zelvi/releases/download/v1.2.0/zelvi-macos-v1.2.0.dmg) — drag to Applications |
 
-> All downloads are in the **Releases** section of this repository.
+> All downloads are in the [**Releases**](https://github.com/zelvi-roxli/zelvi/releases) section of this repository,
+> or on the web at **[zelvi-sarvam.roxli.in/download](https://zelvi-sarvam.roxli.in/download)**.
 
 ## ✨ Features
 
