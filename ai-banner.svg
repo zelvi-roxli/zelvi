@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160" role="img" aria-label="Zelvi AI — speak a song, it plays">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1A1E28"/>
+      <stop offset="1" stop-color="#0C0E13"/>
+    </linearGradient>
+    <linearGradient id="aiGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B93A3" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#8B93A3" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#8B93A3" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="636" height="156" rx="24" fill="url(#panel)" stroke="#39404E" stroke-width="1.4"/>
+  <rect x="2" y="2" width="636" height="156" rx="24" fill="url(#aiGlow)"/>
+
+  <!-- listening ripples -->
+  <circle cx="86" cy="76" r="26" fill="none" stroke="#FAFAFC" stroke-width="1.4" opacity="0.35">
+    <animate attributeName="r" values="26;52" dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.35;0" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="86" cy="76" r="26" fill="none" stroke="#FAFAFC" stroke-width="1.4" opacity="0.35">
+    <animate attributeName="r" values="26;52" dur="2.2s" begin="1.1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.35;0" dur="2.2s" begin="1.1s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- mic -->
+  <g transform="translate(66,56)">
+    <rect x="10" y="0" width="20" height="36" rx="10" fill="#FAFAFC"/>
+    <path d="M2 24 a18 18 0 0 0 36 0" fill="none" stroke="#FAFAFC" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M20 44 v10" stroke="#FAFAFC" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M10 56 h20" stroke="#FAFAFC" stroke-width="3.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- words -->
+  <text x="140" y="66" fill="#FAFAFC" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="32" font-weight="800" letter-spacing="0.3">Zelvi AI</text>
+  <text x="140" y="94" fill="#AEB4BF" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15.5" font-weight="500">&#8220;Zelvi, play Khatu Shyam bhajan&#8221; &#8212; and it plays.</text>
+  <text x="140" y="118" fill="#78808D" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="500">Voice search &#183; Song recognition &#183; Speaks back</text>
+
+  <!-- equalizer -->
+  <g fill="#9AA3B2">
+    <rect x="492" y="98" width="9" rx="4.5" height="20">
+      <animate attributeName="height" values="20;46;14;38;20" dur="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="98;72;104;80;98" dur="1.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="508" y="88" width="9" rx="4.5" height="30">
+      <animate attributeName="height" values="30;12;44;22;30" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="88;106;74;96;88" dur="1.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="524" y="80" width="9" rx="4.5" height="38">
+      <animate attributeName="height" values="38;20;50;30;38" dur="1.15s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="80;98;68;88;80" dur="1.15s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="540" y="92" width="9" rx="4.5" height="26">
+      <animate attributeName="height" values="26;50;16;40;26" dur="1.45s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="92;68;102;78;92" dur="1.45s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="556" y="84" width="9" rx="4.5" height="34">
+      <animate attributeName="height" values="34;14;42;24;34" dur="1.25s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="84;104;76;94;84" dur="1.25s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="572" y="96" width="9" rx="4.5" height="22">
+      <animate attributeName="height" values="22;48;18;34;22" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="96;70;100;84;96" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="588" y="90" width="9" rx="4.5" height="28">
+      <animate attributeName="height" values="28;10;40;20;28" dur="1.35s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="90;108;78;98;90" dur="1.35s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- base line under equalizer -->
+  <rect x="486" y="120" width="116" height="2.4" rx="1.2" fill="#39404E"/>
+</svg>
