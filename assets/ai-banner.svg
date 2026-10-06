@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160" role="img" aria-label="Zelvi AI — speak a song, it plays">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B202B"/>
+      <stop offset="1" stop-color="#0C0E13"/>
+    </linearGradient>
+    <linearGradient id="bars" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8B93A3"/>
+      <stop offset="1" stop-color="#39404E"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="636" height="156" rx="24" fill="url(#panel)" stroke="#39404E" stroke-width="1.4"/>
+
+  <!-- mic tile -->
+  <rect x="40" y="40" width="80" height="80" rx="22" fill="#232836" stroke="#434B5C" stroke-width="1.2"/>
+  <g transform="translate(62,58)">
+    <rect x="10" y="0" width="16" height="30" rx="8" fill="#FAFAFC"/>
+    <path d="M3 20 a15 15 0 0 0 30 0" fill="none" stroke="#FAFAFC" stroke-width="3" stroke-linecap="round"/>
+    <path d="M18 37 v8" stroke="#FAFAFC" stroke-width="3" stroke-linecap="round"/>
+    <path d="M10 46 h16" stroke="#FAFAFC" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- words -->
+  <text x="148" y="62" fill="#FAFAFC" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" letter-spacing="0.3">Zelvi AI</text>
+  <text x="148" y="90" fill="#AEB4BF" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" font-weight="500">&#8220;Zelvi, play Kesariya&#8221; &#8212; and it plays.</text>
+
+  <!-- feature chips -->
+  <g font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="11" font-weight="600">
+    <rect x="148" y="104" width="94" height="25" rx="12.5" fill="none" stroke="#4A5162" stroke-width="1.1"/>
+    <text x="195" y="120.5" text-anchor="middle" fill="#9BA1AC">Voice search</text>
+    <rect x="250" y="104" width="120" height="25" rx="12.5" fill="none" stroke="#4A5162" stroke-width="1.1"/>
+    <text x="310" y="120.5" text-anchor="middle" fill="#9BA1AC">Song recognition</text>
+    <rect x="378" y="104" width="100" height="25" rx="12.5" fill="none" stroke="#4A5162" stroke-width="1.1"/>
+    <text x="428" y="120.5" text-anchor="middle" fill="#9BA1AC">Speaks back</text>
+  </g>
+
+  <!-- static waveform -->
+  <g fill="url(#bars)">
+    <rect x="496" y="94" width="9" rx="4.5" height="24"/>
+    <rect x="512" y="82" width="9" rx="4.5" height="36"/>
+    <rect x="528" y="70" width="9" rx="4.5" height="48"/>
+    <rect x="544" y="88" width="9" rx="4.5" height="30"/>
+    <rect x="560" y="76" width="9" rx="4.5" height="42"/>
+    <rect x="576" y="96" width="9" rx="4.5" height="22"/>
+    <rect x="592" y="84" width="9" rx="4.5" height="34"/>
+  </g>
+  <rect x="490" y="120" width="118" height="2.4" rx="1.2" fill="#39404E"/>
+</svg>

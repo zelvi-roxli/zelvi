@@ -2,7 +2,7 @@
   <img src="./logo.png" width="120" alt="Zelvi" />
 </p>
 
-<h1 align="center">Zelvi 🎵</h1>
+<h1 align="center">Zelvi</h1>
 
 <p align="center">
   <strong>One music app. YouTube + your own MP3s + podcasts — with a recommendation engine that learns your taste.</strong><br/>
@@ -10,42 +10,42 @@
 </p>
 
 <div align="center">
-  <a href="#-download"><img src="./badge-android.svg" alt="Get it on Android" width="170"/></a>
-  <a href="#-download"><img src="./badge-windows.svg" alt="Get it on Windows" width="170"/></a>
-  <a href="#-download"><img src="./badge-macos.svg" alt="Get it on macOS" width="170"/></a>
+  <a href="#-download"><img src="./assets/badge-android.svg" alt="Get it on Android" width="170"/></a>
+  <a href="#-download"><img src="./assets/badge-windows.svg" alt="Get it on Windows" width="170"/></a>
+  <a href="#-download"><img src="./assets/badge-macos.svg" alt="Get it on macOS" width="170"/></a>
   <br/><br/>
   <a href="https://zelvi-sarvam.roxli.in/download">
-    <img src="./download-button.svg" alt="Download Zelvi — Android · Windows · macOS" width="320"/>
+    <img src="./assets/download-button.svg" alt="Download Zelvi — Android · Windows · macOS" width="320"/>
   </a><br/>
   <sub>Latest <b>v1.2.0</b> · Free · No sign-up · Updates inside the app</sub>
 </div>
 
 ---
 
-## 🎙️ Zelvi AI — your voice is the remote
+## <img src="./assets/icon-ai.svg" width="32" valign="middle" alt="" /> Zelvi AI — your voice is the remote
 
 <div align="center">
-  <img src="./ai-banner.svg" alt="Zelvi AI — speak a song, it plays" width="640"/>
+  <img src="./assets/ai-banner.svg" alt="Zelvi AI — speak a song, it plays" width="640"/>
 </div>
 
-- 🗣️ **Voice search** — say *"Zelvi, play Khatu Shyam bhajan"* and it plays. No typing.
+- 🗣️ **Voice search** — say *"Zelvi, play Kesariya"* and it plays. No typing.
 - 🔍 **Song recognition** — Shazam-style: play any song around you, Zelvi names it and queues it.
 - 🔊 **Speaks back** — Zelvi confirms out loud in a natural voice (Hindi & English).
 
-## ✨ Everything in one player
+## <img src="./assets/icon-features.svg" width="32" valign="middle" alt="" /> Everything in one player
 
 | | |
 |---|---|
-| 🎧 **YouTube + your MP3s + podcasts** | One library, one player — paste any YouTube link or song name |
-| 🧠 **Learns your taste** | Deity-aware & mood-aware recommendations that improve with every play *and* skip |
-| 📻 **Bhajan radio** | Endless radio tuned to your devotional mood — Khatu Shyam, Radha-Krishna, Shiv, Sai and more |
-| ⬇️ **Offline downloads** | Real audio downloads with progress — songs play with no internet |
-| 🔒 **Background & lock-screen** | Native playback engine with lock-screen card, media controls and true screen-off playback |
-| ⚡ **Instant start** | Streams are pre-resolved *before* you tap — no more 5–10 second waits |
-| 🔄 **In-app updates** | New version? Zelvi tells you and updates straight from GitHub Releases |
-| 🌓 **Dark & light themes** | A clean, fast UI that feels native on every device |
+| <img src="./assets/icon-headphones.svg" width="26" valign="middle" alt="" /> **YouTube + your MP3s + podcasts** | One library, one player — paste any YouTube link or song name |
+| <img src="./assets/icon-taste.svg" width="26" valign="middle" alt="" /> **Learns your taste** | Deity-aware & mood-aware recommendations that improve with every play *and* skip |
+| <img src="./assets/icon-radio.svg" width="26" valign="middle" alt="" /> **Bhajan radio** | Endless radio tuned to your devotional mood — Khatu Shyam, Radha-Krishna, Shiv, Sai and more |
+| <img src="./assets/icon-save.svg" width="26" valign="middle" alt="" /> **Offline downloads** | Real audio downloads with progress — songs play with no internet |
+| <img src="./assets/icon-phone.svg" width="26" valign="middle" alt="" /> **Background & lock-screen** | Native playback engine with lock-screen card, media controls and true screen-off playback |
+| <img src="./assets/icon-bolt.svg" width="26" valign="middle" alt="" /> **Instant start** | Streams are pre-resolved *before* you tap — no more 5–10 second waits |
+| <img src="./assets/icon-refresh.svg" width="26" valign="middle" alt="" /> **In-app updates** | New version? Zelvi tells you and updates straight from GitHub Releases |
+| <img src="./assets/icon-theme.svg" width="26" valign="middle" alt="" /> **Dark & light themes** | A clean, fast UI that feels native on every device |
 
-## 🧠 The taste engine
+## <img src="./assets/icon-taste.svg" width="32" valign="middle" alt="" /> The taste engine
 
 Zelvi builds a taste profile from what you play, what you search and — importantly — what you **skip**:
 
@@ -56,7 +56,7 @@ Zelvi builds a taste profile from what you play, what you search and — importa
 
 Play a Khatu Shyam bhajan and the radio stays in the same devi-devta mood — it won't drift into random songs. Your profile stays **on your device** and fades gently over time, so recommendations follow who you are today.
 
-## 📥 Download
+## <img src="./assets/icon-download.svg" width="32" valign="middle" alt="" /> Download
 
 | Platform | Direct file (v1.2.0) |
 |---|---|
@@ -67,7 +67,7 @@ Play a Khatu Shyam bhajan and the radio stays in the same devi-devta mood — it
 > All releases live in the [**Releases**](https://github.com/zelvi-roxli/zelvi/releases) section, or on the web at
 > **[zelvi-sarvam.roxli.in/download](https://zelvi-sarvam.roxli.in/download)** — the page always serves the latest version.
 
-## 📲 Install notes
+## <img src="./assets/icon-install.svg" width="32" valign="middle" alt="" /> Install notes
 
 - **Android** — first install asks for *install unknown apps* permission; allow it once for your browser, then open the APK.
 - **Windows** — SmartScreen may show once — "More info → Run anyway".
@@ -78,7 +78,7 @@ Play a Khatu Shyam bhajan and the radio stays in the same devi-devta mood — it
   (or System Settings → Privacy & Security → **Open Anyway**). Then Zelvi opens normally.
 - **Updates** — installed already? Zelvi shows an update banner by itself; no need to revisit this page.
 
-## ❓ FAQ
+## <img src="./assets/icon-faq.svg" width="32" valign="middle" alt="" /> FAQ
 
 <details>
 <summary><b>Is Zelvi free?</b></summary>
@@ -95,7 +95,7 @@ Zelvi downloads audio for offline listening, which store policies don't allow �
 Your library, taste profile and downloads stay on your device. Voice commands go through a secure proxy so no API keys are ever stored in the app.
 </details>
 
-## ⚙️ Under the hood
+## <img src="./assets/icon-hood.svg" width="32" valign="middle" alt="" /> Under the hood
 
 <details>
 <summary><b>Tech stack</b></summary>
@@ -108,6 +108,6 @@ Your library, taste profile and downloads stay on your device. Voice commands go
 
 </details>
 
-## 🏠 Home
+## <img src="./assets/icon-home.svg" width="32" valign="middle" alt="" /> Home
 
 [roxli.in](https://roxli.in) · A product of ROXLI · Zelvi Studio

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="48" viewBox="0 0 180 48" role="img" aria-label="Get it on Android">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2C3240"/>
+      <stop offset="1" stop-color="#10131A"/>
+    </linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="177" height="45" rx="12" fill="url(#abg)" stroke="#4A5162" stroke-width="1.3"/>
+  <g transform="translate(15,13)" fill="#3DDC84">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.4 15.6a10.6 10.6 0 0 1 21.2 0H1.4Zm6.5-6.4a1.43 1.43 0 1 0 0 2.86 1.43 1.43 0 0 0 0-2.86Zm8.1 0a1.43 1.43 0 1 0 0 2.86 1.43 1.43 0 0 0 0-2.86Z"/>
+    <path d="m5.6 8.6-2-3.7M18.4 8.6l2-3.7" stroke="#3DDC84" stroke-width="1.9" stroke-linecap="round" fill="none"/>
+  </g>
+  <text x="46" y="21" fill="#8B93A3" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="8.5" font-weight="600" letter-spacing="1.6">GET IT ON</text>
+  <text x="46" y="38" fill="#FAFAFC" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700">Android</text>
+</svg>

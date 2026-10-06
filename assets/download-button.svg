@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80" role="img" aria-label="Download Zelvi — Android, Windows, macOS">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2C3240"/>
+      <stop offset="1" stop-color="#10131A"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="btnClip">
+      <rect x="3" y="3" width="314" height="74" rx="37"/>
+    </clipPath>
+  </defs>
+
+  <!-- button body -->
+  <rect x="3" y="3" width="314" height="74" rx="37" fill="url(#bg)"/>
+  <rect x="3" y="3" width="314" height="74" rx="37" fill="none"
+        stroke="#6B7488" stroke-width="1.6">
+    <animate attributeName="stroke-opacity" values="0.35;0.95;0.35" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="14" y="6" width="292" height="30" rx="15" fill="#FFFFFF" opacity="0.05"/>
+
+  <!-- sweeping shine -->
+  <g clip-path="url(#btnClip)">
+    <g>
+      <rect x="-46" y="-12" width="72" height="104" fill="url(#shine)" transform="skewX(-18)"/>
+      <animateTransform attributeName="transform" type="translate"
+                        values="-60 0; 400 0; 400 0" keyTimes="0; 0.42; 1"
+                        dur="3.4s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Zelvi glyph (bounces to the beat) -->
+  <g transform="translate(23,19) scale(1.25)">
+    <g>
+      <path d="M11 9.5v13l4.5-3v-7z" fill="#FAFAFC"/>
+      <path d="M17 12.5l7 3.5-7 3.5z" fill="#FAFAFC"/>
+      <animateTransform attributeName="transform" type="translate"
+                        values="0 0; 0 2.5; 0 0" dur="1.5s" repeatCount="indefinite"
+                        calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+    </g>
+  </g>
+
+  <!-- label -->
+  <text x="182" y="44" text-anchor="middle" fill="#FAFAFC"
+        font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="22" font-weight="700" letter-spacing="0.2">Download Zelvi</text>
+  <text x="182" y="62" text-anchor="middle" fill="#8B93A3"
+        font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="10.5" font-weight="600" letter-spacing="2.4">ANDROID &#183; WINDOWS &#183; MACOS</text>
+
+  <!-- falling download arrow (right side) -->
+  <g transform="translate(288,26)" stroke="#FAFAFC" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <g>
+      <path d="M8 0 v13"/>
+      <path d="M2.5 8 L8 13.5 L13.5 8"/>
+      <animateTransform attributeName="transform" type="translate"
+                        values="0 0; 0 3; 0 0" dur="1.1s" repeatCount="indefinite"
+                        calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+    </g>
+    <path d="M1 19 H15"/>
+  </g>
+</svg>
